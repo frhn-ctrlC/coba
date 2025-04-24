@@ -127,7 +127,9 @@ footer{
     margin-top: 2rem;
 }
 
-.logo-home{
-    width: 20px;
-    height: 20px;
+@media (max-width: 600px) {
+    main {
+        margin: 1rem;
+    }
 }
+
